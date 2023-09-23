@@ -1,0 +1,23 @@
+.btn {
+    &:link,
+    &:visited {
+        font-family: var(--ff-accent);
+        font-weight: var(--fw-bold);
+        font-size: 1.4rem;
+        line-height: normal;
+        letter-spacing: 0.093rem;
+        text-decoration: none;
+        color: var(--color-white);
+
+        background-color: var(--color-red);
+        padding: 1.15rem 2.45rem;
+        border-radius: 0.5rem;
+
+        transition: opacity 0.25s ease-out;
+    }
+
+    &:hover,
+    &:active {
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,44 @@
+:root {
+    // Colors
+    --red: #FF5E5E;
+    --dark-red: #BC4747;
+    --very-dark-blue: #242942;
+    --light-grayish-blue: #EDF2F6;
+    --white: #FFF;
+
+    // Typography
+    // Body
+    --ff-body: 'Barlow', sans-serif;
+    // Headings, Call-to-actions, Navigation
+    --ff-accent: 'Barlow Condensed', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+// Breakpoints
+$bp-desktop: 90em; // 1440px
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    // center content on page
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}

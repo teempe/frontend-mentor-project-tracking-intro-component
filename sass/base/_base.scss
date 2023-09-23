@@ -1,10 +1,11 @@
 :root {
     // Colors
-    --red: #FF5E5E;
-    --dark-red: #BC4747;
-    --very-dark-blue: #242942;
-    --light-grayish-blue: #EDF2F6;
-    --white: #FFF;
+    --color-red: hsl(0, 100%, 68%);
+    --color-very-dark-blue: hsl(231, 30%, 20%);
+    --color-dark-grayish-blue: hsl(230, 11%, 40%);
+    --color-grayish-blue: hsl(231, 7%, 65%);
+    --color-light-grayish-blue: hsl(204, 32%, 95%);
+    --color-white: hsl(0, 0%, 100%);
 
     // Typography
     // Body

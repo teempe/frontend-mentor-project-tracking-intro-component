@@ -1,3 +1,32 @@
 .intro {
-    background-color: bisque;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 8.3rem;
+
+    &__illustration {
+        width: 50.2rem;
+        transform: translate(-22px, -4px);
+    }
+
+    &__subtitle {
+        display: flex;
+        column-gap: 1.6rem;
+        align-items: center;
+        margin-bottom: 1.6rem;
+    }
+    
+    &__title {
+        margin-bottom: 1.6rem;
+    }
+    
+    &__text {
+        margin-bottom: 2.7rem;
+        padding-right: 2rem;
+    }
+
+    &__cta {
+        display: flex;
+        column-gap: 2rem;
+        align-items: center;
+    }
 }

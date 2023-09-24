@@ -29,4 +29,25 @@
         column-gap: 2rem;
         align-items: center;
     }
+
+    &::before {
+        content: "";
+        width: 8.8rem;
+        box-shadow: 0.8rem 2.4rem 4.4rem 0.8rem hsla(0, 0%, 0%, 0.3);
+        position: absolute;
+        top: 30.5rem;
+        z-index: -1;
+    }
+
+    &::after {
+        content: "";
+        width: 18.7rem;
+        height: 42.5rem;
+        background-color: var(--color-light-grayish-blue);
+        border-bottom-left-radius: 6rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+    }
 }

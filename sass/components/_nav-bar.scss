@@ -1,0 +1,47 @@
+.nav-bar {
+    font-family: var(--ff-accent);
+    font-weight: var(--fw-bold);
+    line-height: normal;
+    letter-spacing: 0.12rem;
+    text-transform: uppercase;
+    color: var(--color-very-dark-blue);
+
+    position: absolute;
+    top: 10rem;
+    left: 3.2rem;
+    z-index: 100;
+    width: 31.1rem;
+
+    background-color: var(--color-white);
+    padding: 2.4rem;
+    border-radius: 0.3rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem var(--color-shadow);
+
+    &__links {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+
+        &--login {
+            color: var(--color-grayish-blue);
+        }
+    }
+
+    &__separator {
+        width: 100%;
+        height: 1px;    
+        background-color: var(--color-grayish-blue);
+    }
+
+    &__link:hover,
+    &__link:active {
+        text-decoration: underline;
+    }
+}

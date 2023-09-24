@@ -1,5 +1,33 @@
+@import '../components/nav-bar';
+
+
 .header {
-    height: 24px;
-    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     margin-bottom: 6.4rem;
+
+    &__logo {
+        width: 2.4rem;
+    }
+
+    &__nav-icon {
+        width: 2.4rem;
+        height: 1.6rem;
+
+        background: url('../images/icon-hamburger.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &--close {
+            background: url('../images/icon-close.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }

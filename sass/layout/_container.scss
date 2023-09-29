@@ -3,4 +3,9 @@
     overflow-x: hidden;
     padding: 3.8rem 3.2rem 9.2rem;
     position: relative;
+
+    @include media-screen-min($bp-desktop) {
+        max-width: 144rem;
+        padding: 6.4rem 16.5rem 12.5rem;
+    }
 }

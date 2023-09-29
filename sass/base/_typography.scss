@@ -17,6 +17,11 @@ body {
     font-size: 4rem;
     line-height: 4rem;
     color: var(--color-very-dark-blue);
+
+    @include media-screen-min($bp-desktop) {
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+    }
 }
 
 .subtitle {
@@ -30,6 +35,11 @@ body {
     &--sm {
         font-size: 1.4rem;
         letter-spacing: 0.25rem;
+
+        @include media-screen-min($bp-desktop) {
+            font-size: 1.5rem;
+            letter-spacing: 0.5rem;
+        }
     }
 
     &--accent {

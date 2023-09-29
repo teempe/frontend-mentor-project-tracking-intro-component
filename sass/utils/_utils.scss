@@ -1,3 +1,9 @@
+@mixin media-screen-min($value) {
+    @media only screen and (min-width: $value) {
+        @content;
+    }
+}
+
 .hidden {
     display: none;
 }

@@ -2,6 +2,7 @@
 
 
 .header {
+    background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +29,18 @@
 
         &:hover {
             cursor: pointer;
+        }
+    }
+
+    @include media-screen-min($bp-desktop) {
+        margin-bottom: 12.4rem;
+
+        &__logo {
+            width: 3.2rem;
+        }
+
+        &__nav-icon {
+            display: none;
         }
     }
 }

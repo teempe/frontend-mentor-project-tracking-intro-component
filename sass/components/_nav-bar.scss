@@ -44,4 +44,32 @@
     &__link:active {
         text-decoration: underline;
     }
+
+    @include media-screen-min($bp-desktop) {
+        display: block;
+
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        width: auto;
+
+        background-color: transparent;
+        padding: 0rem;
+        border-radius: 0rem;
+        box-shadow: none;
+
+        &__links {
+            flex-direction: row;
+            gap: 4.1rem;
+        }
+
+        &__separator {
+            width: 0.6rem;
+            height: 0.6rem;  
+            border-radius: 50%;  
+        }
+    }
 }

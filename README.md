@@ -24,13 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-## Mobile
+#### Mobile
 
 | Mobile      | Mobile - menu |
 |    :----:   |    :----:     |
 | ![](./Screenshot-mobile.png) | ![](./Screenshot-mobile-menu.png) |
 
-## Desktop
+#### Desktop
 
 ![](./Screenshot-desktop.png)
 

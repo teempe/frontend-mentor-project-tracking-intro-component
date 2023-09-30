@@ -2,7 +2,6 @@
 
 
 .header {
-    background-color: bisque;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +32,7 @@
     }
 
     @include media-screen-min($bp-desktop) {
-        margin-bottom: 12.4rem;
+        margin-bottom: 11.4rem;
 
         &__logo {
             width: 3.2rem;

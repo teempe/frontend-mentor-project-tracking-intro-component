@@ -30,15 +30,6 @@
         align-items: center;
     }
 
-    &::before {
-        content: "";
-        width: 8.8rem;
-        box-shadow: 0.8rem 2.4rem 4.4rem 0.8rem hsla(0, 0%, 0%, 0.3);
-        position: absolute;
-        top: 30.5rem;
-        z-index: -1;
-    }
-
     &::after {
         content: "";
         width: 18.7rem;
@@ -49,5 +40,42 @@
         top: 0;
         right: 0;
         z-index: -1;
+    }
+
+    @include media-screen-min($bp-desktop) {
+        grid-template-columns: 47rem 1fr;
+        gap: 11.4rem;
+        align-items: center;
+    
+        &__illustration {
+            width: auto;
+            transform: translate(0, 0);
+        }
+
+        &__content {
+            order: -1;
+        }
+    
+        &__subtitle {
+            column-gap: 1.5rem;
+        }
+        
+        &__title {
+            margin-bottom: 3.2rem;
+        }
+        
+        &__text {
+            margin-bottom: 6.4rem;
+            padding-right: 20rem;
+        }
+    
+        &__cta {
+            column-gap: 2.4rem;
+        }
+    
+        &::after {
+            width: 70.5rem;
+            height: 42.7rem;
+        }
     }
 }

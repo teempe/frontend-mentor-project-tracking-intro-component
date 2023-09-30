@@ -28,11 +28,11 @@ Users should be able to:
 
 | Mobile      | Mobile - menu |
 |    :----:   |    :----:     |
-| ![](./Screenshot-mobile.jpg) | ![](./Screenshot-mobile-menu.jpg) |
+| ![](./Screenshot-mobile.png) | ![](./Screenshot-mobile-menu.png) |
 
 ## Desktop
 
-![](./Screenshot-desktop.jpg)
+![](./Screenshot-desktop.png)
 
 ### Links
 
